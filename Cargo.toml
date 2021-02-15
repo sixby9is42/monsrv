@@ -1,0 +1,15 @@
+[package]
+name = "monsrv"
+version = "0.1.0"
+authors = ["Stefan Lahner <lahner.stefan@gmx.at>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+warp = "0.3"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
